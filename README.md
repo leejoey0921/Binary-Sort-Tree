@@ -1,8 +1,8 @@
 # Binary-Sort-Tree
 JAVA implementation of BST, NOBST, OBST, AVL
 
-## BST.java
-### BST (Binary Sort Tree)
+## 1. BST.java
+### 1-1. BST (Binary Sort Tree)
 A Basic Binary Sort Tree.  
 I assumed that all keys are words(strings), and the node weight is the frequency of the word in the input sequence.  
 
@@ -36,18 +36,18 @@ Converts the tree to a NOBST.
 - `boolean NOBSTified`  
 `true` if the tree has been converted to an NOBST. `false` if otherwise.  
 
-### NOBST (Nearly Optimal Binary Sort Tree)  
+### 1-2. NOBST (Nearly Optimal Binary Sort Tree)  
 A Nearly Optimal Binary Sort Tree.  
 The root of a NOBST is chosen so that the weight sum difference of its left and right subtrees is minimal.  
 The roots of its subtrees is chosen in the same way recursively.  
 If there is a tie, the right subtree is made heavier.
 
-### OBST (Optimal Binary Sort Tree)
+### 1-3. OBST (Optimal Binary Sort Tree)
 An Optimal Binary Sort Tree.  
 The tree is constructed so that the sum of all weighted path lengths is minimal.
 <br></br>
 
-## AVL.java
+## 2. AVL.java
 An implementation of an AVL binary sort tree.
 - `void insert(String key)`  
 Inserts a node with the given string as the key. If the value is already in the tree, the node's frequency is incremented by 1.  
