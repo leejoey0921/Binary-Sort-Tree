@@ -5,9 +5,9 @@ public class BST {
 
   protected boolean NOBSTified = false;
   protected boolean OBSTified = false;
-  protected int[][] roots, costs;
-  protected ArrayList<Node> inorderNodes = new ArrayList<>();
-  protected ArrayList<Integer> weights = new ArrayList<>();
+  protected int[][] roots, costs;  // matrices used in OBST construction
+  protected ArrayList<Node> inorderNodes = new ArrayList<>();  // list of nodes inorder
+  protected ArrayList<Integer> weights = new ArrayList<>();  // list of nodes' weights inorder
   protected Node root;
 
 
