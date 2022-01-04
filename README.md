@@ -48,7 +48,8 @@ The tree is constructed so that the sum of all weighted path lengths is minimal.
 <br></br>
 
 ## 2. AVL.java
-An implementation of an AVL binary sort tree.
+An implementation of an AVL binary sort tree.  
+The `AVL` class inherits the `BST` class, and overrides only the `insert()` method. 
 - `void insert(String key)`  
 Inserts a node with the given string as the key. If the value is already in the tree, the node's frequency is incremented by 1.  
 Makes rotations so that the magnitude of the balance factor of all nodes is always less than 2.
