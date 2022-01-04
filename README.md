@@ -1,5 +1,5 @@
 # Binary-Sort-Tree
-JAVA implementation of BST, NOBST, OBST, AVL
+A **Java** implementation of BST, NOBST, OBST, AVL
 
 ## 1. BST.java
 ### 1-1. BST (Binary Sort Tree)
